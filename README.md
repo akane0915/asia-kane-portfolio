@@ -23,13 +23,16 @@ _N/A_
 
 ## Support and contact details
 
-_For any questions or support, please contact Asia Kane at asialkane@gmail.com _
+_For any questions or support, please contact Asia Kane at asialkane@gmail.com_
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+
+## Technologies Used
+_Link to Github Pages: _
 
 ### License
 
