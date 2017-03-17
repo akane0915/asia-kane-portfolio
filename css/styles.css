@@ -46,8 +46,14 @@ nav ul li a{
 /***Masthead Section***/
 header{
   background: url(../img/masthead.jpg) no-repeat white;
-  height: 650px;
+  height: 600px;
   background-size: cover;
+}
+
+.masthead-text{
+  padding-top: 70px;
+  text-align: center;
+  font-weight: bolder;
 }
 
 
