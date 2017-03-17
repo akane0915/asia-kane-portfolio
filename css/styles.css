@@ -1,0 +1,12 @@
+body{
+  margin: 10px;
+}
+
+.portfolio-grid-container img{
+  height: 150px;
+  width: 250px;
+  float: left;
+}
+
+.portfolio-project-info{
+}
