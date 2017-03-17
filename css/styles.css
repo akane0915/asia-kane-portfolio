@@ -56,6 +56,23 @@ header{
   font-weight: bolder;
 }
 
+/***About Me Section***/
+#about-section{
+  height: 500px;
+  padding: 30px 0 0 30px;
+}
+
+#about-section h2{
+  padding: 0 0 20px 0;
+}
+
+.about-me-content p{
+  line-height: 35px;
+}
+
+#column-2{
+  text-align: center;
+}
 
 /***Portfolio Section***/
 .portfolio-grid-container img{
