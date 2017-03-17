@@ -1,13 +1,60 @@
+/***General Section***/
 body{
   margin: 10px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  line-height: 20px;
 }
 
+h1, h2, h3{
+  font-family: 'Lora', serif;
+}
+
+/***Navigation Section***/
+nav{
+  height: 60px;
+}
+
+nav .fullwidth{
+  padding: 10px;
+  width: 100%;
+}
+
+.half-width{
+  width: 50%;
+  float: left;
+}
+
+#my-name{
+  font-size: 24px;
+  width: 50%;
+  text-transform: uppercase;
+  padding: 20px 0 0 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  font-size: 16px;
+  padding: 30px 0 0 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/***Masthead Section***/
+header{
+  background: url(../img/masthead.jpg) no-repeat white;
+  height: 650px;
+  background-size: cover;
+}
+
+
+/***Portfolio Section***/
 .portfolio-grid-container img{
   height: 300px;
   width: 450px;
   float: left;
   padding: 10px 10px;
-}
-
-.portfolio-project-info{
 }
