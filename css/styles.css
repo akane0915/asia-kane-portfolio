@@ -161,7 +161,17 @@ header .gray{
   margin-right: 200px;
 }
 
+#contact-section .contact-links{
+  padding: 200px 0 0 200px;
+  font-size: 30px;
+}
+
 #contact-section a{
   text-decoration: none;
   color: inherit;
+  padding: 0px 10px;
+}
+
+#contact-section p{
+  font-size: 20px;
 }
