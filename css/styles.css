@@ -172,9 +172,18 @@ header .gray{
   padding-bottom: 20px;
 }
 
+#contact-section img:hover{
+  filter: none;
+}
+
 #contact-section .contact-links{
   padding: 200px 0 0 200px;
   font-size: 30px;
+}
+
+#contact-section .contact-links:hover{
+  color: black;
+  font-weight: bolder;
 }
 
 #contact-section a{
