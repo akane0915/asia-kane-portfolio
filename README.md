@@ -32,7 +32,7 @@ _For any questions or support, please contact Asia Kane at asialkane@gmail.com_
 * _Bootstrap_
 
 ## Github Pages Link
-_Link to Github Pages: _
+_https://akane0915.github.io/asia-kane-portfolio/_
 
 ### License
 
