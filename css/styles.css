@@ -119,3 +119,9 @@ header .gray{
 #contact-section h2{
   padding: 0 0 40px 0;
 }
+
+#contact-section img{
+  height: 400px;
+  width: 400px;
+  filter: grayscale(100%);
+}
