@@ -137,12 +137,13 @@ header .gray{
 .col-md-6{
   text-align: center;
 }
-.button{
+
+.btn{
   background: #222;
-  border: none;
-  padding: 15px 10px;
+  border-radius: 0;
   color: white;
-  width: 200px;
+  padding: 15px 30px;
+
 }
 
 #portfolio-section .class{
