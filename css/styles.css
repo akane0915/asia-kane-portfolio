@@ -10,6 +10,7 @@ h1, h2, h3{
   font-family: 'Lora', serif;
 }
 
+
 /***Navigation Section***/
 nav{
   height: auto;
@@ -46,6 +47,7 @@ nav ul li a:hover{
   font-weight: bolder;
 }
 
+
 /***Masthead Section***/
 header{
   background: url(../img/masthead.jpg) no-repeat white;
@@ -64,6 +66,7 @@ header .gray{
   color: gray;
   font-size: 40px;
 }
+
 
 /***About Me Section***/
 #about-section{
@@ -89,8 +92,8 @@ header .gray{
   text-align: center;
 }
 
-/***Portfolio Section***/
 
+/***Portfolio Section***/
 #portfolio-section{
   height: auto;
   min-height: 1400px;
@@ -150,8 +153,8 @@ header .gray{
   color: white;
 }
 
-/***Contact Section***/
 
+/***Contact Section***/
 #contact-section{
   height: auto;
   min-height: 600px;

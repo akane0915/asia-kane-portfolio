@@ -31,7 +31,7 @@ _For any questions or support, please contact Asia Kane at asialkane@gmail.com_
 * _CSS_
 * _Bootstrap_
 
-## Technologies Used
+## Github Pages Link
 _Link to Github Pages: _
 
 ### License
