@@ -3,9 +3,10 @@ body{
 }
 
 .portfolio-grid-container img{
-  height: 150px;
-  width: 250px;
+  height: 300px;
+  width: 450px;
   float: left;
+  padding: 10px 10px;
 }
 
 .portfolio-project-info{
