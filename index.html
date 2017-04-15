@@ -6,13 +6,15 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Raleway:200" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-mfizz-2.4.1/font-mfizz.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <!--Navigation Section-->
     <nav class="row vertical-align">
       <p class="col-md-6" id="my-name"><a href="https://github.com/akane0915">Asia Kane</a></p>
       <ul class="col-md-6" id="navigation-bar">
-        <li><a href="#home">Home</a></li>
         <li><a href="#about-section">About</a></li>
         <li><a href="#portfolio-section">Portfolio</a></li>
         <li><a href="#contact-section">Contact</a></li>
@@ -65,61 +67,88 @@
         </div><!--About Me Content Close-->
       </div>  <!--About Me Section Close-->
 
+      <!--Work Section-->
+      <div class="main-content-section" id="work-section">
+        <h2>I have experience in</h2>
+        <div class="work-grid-container">
+          <!--Work Row 1-->
+          <div class="row">
+            <!--Work Row 1 Column 1-->
+            <div class="col-md-4">
+              <i class="fa fa-html5" aria-hidden="true"></i>
+              <h4>HTML</h4>
+            </div><!--Work Row 1 Column 1 close-->
+            <div class="col-md-4">
+              <i class="fa fa-css3" aria-hidden="true"></i>
+              <h4>CSS</h4>
+            </div><!--Work Row 1 Column 2 close-->
+            <div class="col-md-4">
+              <i class="icon-javascript"></i>
+              <h4>JavaScript</h4>
+            </div><!--Work Row 1 Column 3 close-->
+          </div><!--Work Row 1 close-->
+
+          <!--Work Row 2-->
+          <div class="row">
+            <!--Work Row 2 Column 1-->
+            <div class="col-md-4">
+              <i class="icon-jquery"></i>
+              <h4>jQuery</h4>
+            </div><!--Work Row 2 Column 1 close-->
+            <div class="col-md-4">
+              <i class="icon-bootstrap"></i>
+              <h4>Bootstrap</h4>
+            </div><!--Work Row 2 Column 2 close-->
+            <div class="col-md-4">
+              <i class="icon-ruby"></i>
+              <h4>Ruby on Rails</h4>
+            </div><!--Work Row 2 Column 3 close-->
+          </div><!--Work Row 2 close-->
+
+
+        </div><!--Work Grid Container Close-->
+      </div><!--Work Section Close-->
+
+
       <!--Portfolio Section-->
       <div class="main-content-section" id="portfolio-section">
-        <h2>Some things I've made</h2>
+        <h2>Experience</h2>
         <div class="portfolio-grid-container">
           <!--Portfolio Row 1-->
           <div class="row">
             <!--Portfolio Row 1 Column 1-->
-            <div class="col-md-6">
-              <img src="img/wiki.jpg" alt="wikipedia page">
-                <h3>Wikipedia Home Page</h3>
-                <p>Re-creation of the Wikipedia home page</p>
-                <p>HTML. CSS. BOOTSTRAP</p>
+            <div class="col-md-6 portfolio-image">
+              <img src="img/dinner-match.png" alt="Dinner Match">
+              <div class="description-on-hover">
+                <h3>DinnerMatch.com</h3>
+                <p>Application to allow users to select food ingredients on hand and app returns recommended recipes</p>
+                <p>HTML. CSS. BOOTSTRAP. Javascript. jQuery.</p>
                 <div class="btn">
-                  <a href="https://github.com/akane0915/wiki.git">View Project</a>
+                  <a href="https://github.com/akane0915/plenty-of-ingredients">View Project</a>
                 </div>
+              </div>
             </div>
 
             <!--Portfolio Row 1 Column 2-->
             <div class="col-md-6">
-              <img src="img/sea-buddies.jpg" alt="sea buddies page">
-              <h3>Sea Buddies Website</h3>
-              <p>Landing page for Sea Buddies animal shelter</p>
-              <p>HTML. CSS</p>
+              <img src="img/asias-pizza.png" alt="Asia's NY Style Pizza">
+              <h3>Asia's NY Style Pizza</h3>
+              <p>Application for Asia's pizzeria</p>
+              <p>HTML. CSS. BOOTSTRAP. Javascript. jQuery.</p>
               <div class="btn">
-                <a href="https://github.com/akane0915/animal-shelter.git">View Project</a>
+                <a href="https://github.com/akane0915/order-pizza">View Project</a>
+              </div>
+              <img src="img/epicodus-survey.png" alt="Epicodus Track Survey">
+              <h3>Epicodus Track Survey</h3>
+              <p>Application to match prospective Epicodus students to the appropriate code school track based on interest and experience</p>
+              <p>HTML. CSS. BOOTSTRAP. Javascript. jQuery.</p>
+              <div class="btn">
+                <a href="https://github.com/akane0915/epicodus-track-survey">View Project</a>
               </div>
             </div>
           </div> <!--Portfolio Row 1 Close-->
-
-          <!--Portfolio Row 2-->
-          <div class="row">
-            <!--Portfolio Row 2 Column 1-->
-            <div class="col-md-6">
-              <img src="img/food-truck.jpg" alt="food trucks page">
-              <h3>Food Trucks Blog</h3>
-              <p>Blog for Portland Food Trucks</p>
-              <p>HTML. CSS</p>
-              <div class="btn">
-                <a href="https://github.com/akane0915/food-trucks-blog.git">View Project</a>
-              </div>
-              </div>
-
-            <!--Portfolio Row 2 Column 2-->
-            <div class="col-md-6">
-              <img src="img/bora-bora.jpg" alt="bora bora page">
-              <h3>Bora Bora Resort Website</h3>
-              <p>Website for a vacation to Bora Bora!</p>
-              <p>HTML. CSS</p>
-              <div class="btn">
-                <a href="https://github.com/akane0915/beautiful-bora-bora.git">View Project</a>
-              </div>
-            </div>
-          </div> <!--Portfolio Row 2 Close-->
-        </div>
-      </div>
+        </div><!--Portfolio Grid Container Close-->
+      </div><!--Portfolio Section Close-->
 
       <!--Contact Section-->
       <div class="main-content-section" id="contact-section">
