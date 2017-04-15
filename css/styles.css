@@ -30,6 +30,7 @@ nav{
 #my-name a:hover{
   text-decoration: none;
   font-weight: bolder;
+  color: black;
 
 }
 
@@ -79,7 +80,7 @@ header .gray{
 /***About Me Section***/
 #about-section{
   height: auto;
-  min-height: 600px;
+  min-height: 650px;
   padding: 30px 0 0 30px;
 }
 
@@ -106,18 +107,32 @@ header .gray{
 #work-section{
   background-color: #f3f3f3;
   height: auto;
-  min-height: 300px;
+  min-height: 500px;
+  padding: 30px 0 0 30px;
+}
+
+#work-section h2{
+  padding: 0 0 40px 0;
+}
+
+.work-grid-container .work-section-element{
+  text-align: center;
+  margin: 40px auto 30px auto;
+}
+
+.work-grid-container i{
+  font-size: 50px;
 }
 
 /***Portfolio Section***/
 #portfolio-section{
   height: auto;
-  min-height: 1400px;
+  min-height: 1100px;
   padding: 30px 0 0 30px;
 }
 
 #portfolio-section h2{
-  padding: 0 0 10px 0;
+  padding: 0 0 40px 0;
 }
 
 #portfolio-section .col-md-6{
@@ -127,11 +142,18 @@ header .gray{
 #portfolio-section img{
   width: 100%;
   height: auto;
-  border
+  position: relative;
 }
 
 .description-on-hover{
  display: none;
+ position: absolute;
+ width: 100%;
+ top: 200px;
+}
+
+.dim-on-hover{
+  background-color: black;
 }
 
 #portfolio-section .col-md-6 h3{
@@ -164,10 +186,11 @@ header .gray{
   height: auto;
   min-height: 600px;
   background-color: #f3f3f3;
+  padding: 30px 0 0 30px;
 }
 
 #contact-section h2{
-  padding: 0 0 40px 35px;
+  padding: 0 0 40px 0;
 }
 
 .vertical-align {
