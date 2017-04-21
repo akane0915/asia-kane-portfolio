@@ -13,7 +13,11 @@ h1, h2, h3{
 /***Navigation Section***/
 nav{
   height: auto;
-  min-height: 60px;
+  min-height: 80px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
 }
 
 #my-name{
@@ -58,6 +62,10 @@ nav ul li a:hover{
 
 
 /***Masthead Section***/
+.content-below-nav{
+  padding-top: 70px;
+}
+
 header{
   background: url(../img/masthead.jpg) no-repeat white;
   height: auto;
@@ -117,7 +125,7 @@ header .gray{
 
 .work-grid-container .work-section-element{
   text-align: center;
-  margin: 40px auto 30px auto;
+  margin: 40px auto 50px auto;
 }
 
 .work-grid-container i{
@@ -137,7 +145,6 @@ header .gray{
 
 #portfolio-section .col-md-4{
   text-align: center;
-  width: 32%
 }
 
 #portfolio-section img{
@@ -205,27 +212,22 @@ header .gray{
 }
 
 #contact-section img{
-  filter: grayscale(30%);
+  border-radius: 50%;
   max-width: 350px;
-}
-
-#contact-section img:hover{
-  filter: none;
 }
 
 #contact-section .contact-links{
   font-size: 30px;
 }
 
-#contact-section a:hover{
-  color: black;
-  font-weight: bolder;
-}
-
 #contact-section a{
   text-decoration: none;
   color: inherit;
   padding: 0px 10px;
+}
+
+#contact-section a:hover{
+  color: gray;
 }
 
 #contact-section p{
