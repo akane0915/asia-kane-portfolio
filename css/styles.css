@@ -18,6 +18,7 @@ nav{
   background-color: white;
   width: 100%;
   z-index: 1;
+  top: 0;
 }
 
 .nav-bar{
@@ -42,6 +43,7 @@ nav{
   text-decoration: none;
   font-weight: bolder;
   color: black;
+  cursor: pointer;
 }
 
 #navigation-links{
@@ -65,6 +67,7 @@ nav ul li a:hover{
   color: black;
   font-weight: bolder;
   text-decoration: none;
+  cursor: pointer;
 }
 
 /***Masthead Section***/
@@ -151,6 +154,7 @@ header .gray{
 
 #portfolio-section .col-md-4{
   text-align: center;
+  padding: 20px 15px 80px 15px;
 }
 
 #portfolio-section img{
@@ -193,7 +197,12 @@ header .gray{
   border-radius: 0;
   color: white;
   padding: 15px 30px;
+  cursor: pointer;
+  margin: 10px 0;
+}
 
+.btn:hover{
+  color: gray;
 }
 
 /***Contact Section***/
@@ -234,6 +243,7 @@ header .gray{
 
 #contact-section a:hover{
   color: gray;
+  cursor: pointer;
 }
 
 #contact-section p{
