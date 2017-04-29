@@ -236,8 +236,16 @@ header .gray{
 }
 
 .vertical-align {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.column-center{
+  flex-grow: 1;
+}
+
+.column-min-height{
+  min-height: 350px;
 }
 
 #contact-section .col-md-6{

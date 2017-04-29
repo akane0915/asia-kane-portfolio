@@ -17,19 +17,21 @@
   </head>
   <body>
     <!--Navigation Section-->
-    <nav class="row vertical-align">
-      <div class="nav-bar" id="my-name">
-        <p><a href="https://github.com/akane0915" target=_blank>Asia Kane</a></p>
-      </div>
-      <div class="nav-bar" id="navigation-links">
-        <ul>
-          <li><a href="#about-section">About</a></li>
-          <li><a href="#work-section">Experience</a></li>
-          <li><a href="#portfolio-section">Portfolio</a></li>
-          <li><a href="#contact-section">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div class="fluid-container">
+      <nav class="row vertical-align">
+        <div class="nav-bar" id="my-name">
+          <p><a href="https://github.com/akane0915" target=_blank>Asia Kane</a></p>
+        </div>
+        <div class="nav-bar" id="navigation-links">
+          <ul>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#work-section">Experience</a></li>
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <!--Masthead Section-->
     <div class="content-below-nav">
@@ -86,35 +88,63 @@
             <div class="row">
               <!--Work Row 1 Column 1-->
               <div class="col-md-4 work-section-element">
-                <i class="fa fa-html5" aria-hidden="true"></i>
-                <h4>HTML</h4>
+                <i class="icon-javascript"></i>
+                <h4>JavaScript</h4>
               </div><!--Work Row 1 Column 1 close-->
+
+              <!--Work Row 1 Column 2-->
+              <div class="col-md-4 work-section-element">
+                <i class="icon-ruby"></i>
+                <h4>Ruby on Rails</h4>
+              </div><!--Work Row 1 Column 2 close-->
+
               <div class="col-md-4 work-section-element">
                 <i class="fa fa-css3" aria-hidden="true"></i>
                 <h4>CSS</h4>
-              </div><!--Work Row 1 Column 2 close-->
-              <div class="col-md-4 work-section-element">
-                <i class="icon-javascript"></i>
-                <h4>JavaScript</h4>
               </div><!--Work Row 1 Column 3 close-->
+
+
             </div><!--Work Row 1 close-->
 
             <!--Work Row 2-->
             <div class="row">
               <!--Work Row 2 Column 1-->
               <div class="col-md-4 work-section-element">
-                <i class="icon-jquery"></i>
-                <h4>jQuery</h4>
-              </div><!--Work Row 2 Column 1 close-->
+                <i class="fa fa-html5" aria-hidden="true"></i>
+                <h4>HTML</h4>
+              </div><!--Work Row 3 Column 1 close-->
+
+              <!--Work Row 2 Column 2-->
+              <div class="col-md-4 work-section-element">
+                <i class="fa fa-css3" aria-hidden="true"></i>
+                <h4>CSS</h4>
+
               <div class="col-md-4 work-section-element">
                 <i class="icon-bootstrap"></i>
                 <h4>Bootstrap</h4>
               </div><!--Work Row 2 Column 2 close-->
-              <div class="col-md-4 work-section-element">
-                <i class="icon-ruby"></i>
-                <h4>Ruby on Rails</h4>
-              </div><!--Work Row 2 Column 3 close-->
+
+
             </div><!--Work Row 2 close-->
+
+            <!--Work Row 3-->
+            <div class="row">
+              <!--Work Row 3 Column 1-->
+              <div class="col-md-4 work-section-element">
+                <i class="icon-jquery"></i>
+                <h4>jQuery</h4>
+              </div><!--Work Row 3 Column 1 close-->
+
+              <div class="col-md-4 work-section-element">
+                <i class="fa fa-css3" aria-hidden="true"></i>
+                <h4>CSS</h4>
+              </div><!--Work Row 3 Column 2 close-->
+
+              <div class="col-md-4 work-section-element">
+                <i class="icon-javascript"></i>
+                <h4>JavaScript</h4>
+              </div><!--Work Row 3 Column 3 close-->
+            </div><!--Work Row 3 close-->
 
 
           </div><!--Work Grid Container Close-->
@@ -186,27 +216,31 @@
         <div class="main-content-section" id="contact-section">
           <h2>Get in touch</h2>
           <div class="container">
-            <div class="row vertical-align">
-              <div class="col-md-6">
-                <img src="img/asia2.jpg" alt="Asia Kane Picture">
+            <div class="row">
+              <div class="col-md-6 vertical-align column-min-height">
+                <div class="column-center">
+                  <img src="img/asia2.jpg" alt="Asia Kane Picture">
+                </div>
               </div><!--Column 1 close-->
-              <div class="col-md-6">
-                <!--Contact links-->
-                <div class="contact-links">
-                  <!--Email-->
-                  <p>
-                    <a id="email" href="mailto:kane.asia@gmail.com">kane.asia@gmail.com</a>
-                  </p>
-                  <br>
-                  <!--Github-->
-                  <a href="https://github.com/akane0915" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                  <!--Facebook-->
-                  <a href="https://www.facebook.com/asialil"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                  <!--Instagram-->
-                  <a href="https://www.instagram.com/asialilly/?hl=en"target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                  <!--Twitter-->
-                  <a href="https://twitter.com/asialkane"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </div> <!--Contact Links close-->
+              <div class="col-md-6 vertical-align column-min-height">
+                <div class="column-center">
+                  <!--Contact links-->
+                  <div class="contact-links">
+                    <!--Email-->
+                    <p>
+                      <a id="email" href="mailto:kane.asia@gmail.com">kane.asia@gmail.com</a>
+                    </p>
+                    <br>
+                    <!--Github-->
+                    <a href="https://github.com/akane0915" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <!--Facebook-->
+                    <a href="https://www.facebook.com/asialil"target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/asialilly/?hl=en"target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <!--Twitter-->
+                    <a href="https://twitter.com/asialkane"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </div> <!--Contact Links close-->
+                </div><!--Vertical-align close-->
               </div><!--Column 2 close-->
             </div> <!--Row close-->
           </div>
