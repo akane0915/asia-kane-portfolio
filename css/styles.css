@@ -10,6 +10,12 @@ h1, h2, h3{
   font-family: 'Lora', serif;
 }
 
+
+/***Test New Navbar**/
+.navbar{
+  padding: 100px 0 0 0;
+}
+
 /***Navigation Section***/
 nav{
   height: auto;
@@ -135,7 +141,7 @@ header .gray{
 
 .work-grid-container .work-section-element{
   text-align: center;
-  margin: 40px auto 50px auto;
+  margin: 40px auto 90px auto;
 }
 
 .work-grid-container i{
@@ -204,6 +210,22 @@ header .gray{
 
 .btn:hover{
   color: gray;
+}
+
+.centered-button{
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.btn a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn a:hover{
+  color: white;
+  color: gray;
+  text-decoration: none;
 }
 
 /***Contact Section***/
