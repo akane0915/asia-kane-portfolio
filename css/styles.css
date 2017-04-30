@@ -264,3 +264,8 @@ header .gray{
 #contact-section p{
   font-size: 20px;
 }
+
+p#location{
+  font-size: 18px;
+  margin: 30px 0;
+}
