@@ -136,7 +136,7 @@ header .gray{
 #portfolio-section{
   height: auto;
   min-height: 800px;
-  padding: 30px 0 0 30px;
+  padding: 30px 0 0 0;
 }
 
 #portfolio-section h2{
@@ -153,7 +153,7 @@ header .gray{
   height: auto;
 }
 
-.description-on-hover{
+/*.description-on-hover{
  display: none;
  position: absolute;
  width: 90%;
@@ -163,7 +163,7 @@ header .gray{
 
 .dim-on-hover img{
   opacity: 0.1;
-}
+}*/
 
 #portfolio-section .col-md-4 h3{
   text-align: center;
@@ -210,6 +210,40 @@ header .gray{
   color: white;
   color: gray;
   text-decoration: none;
+}
+
+
+/*Portfolio section test hover*/
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: black;
+}
+
+/*.portfolio-item-container:hover .overlay {
+  opacity: 1;
+}*/
+
+.show-overlay{
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 /***Contact Section***/

@@ -22,12 +22,20 @@ $(document).ready(function(){
       }, 1000);
   });
 
-  // Portfolio section display description on hover
-  $(".portfolio-image").mouseover(function() {
-    $(this).children(".description-on-hover").show();
-    $(this).addClass("dim-on-hover");
+
+  $(".portfolio-item-container").mouseover(function() {
+    $(this).children(".overlay").show();
   }).mouseout(function() {
-    $(this).children(".description-on-hover").hide();
-    $(this).removeClass("dim-on-hover");
+    $(this).children(".overlay").hide();
   });
+
+
+  // Portfolio section display description on hover
+  // $(".portfolio-image").mouseover(function() {
+  //   $(this).children(".description-on-hover").show();
+  //   $(this).addClass("dim-on-hover");
+  // }).mouseout(function() {
+  //   $(this).children(".description-on-hover").hide();
+  //   $(this).removeClass("dim-on-hover");
+  // });
 }); //Doc ready close
