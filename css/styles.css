@@ -10,34 +10,20 @@ h1, h2, h3{
   font-family: 'Lora', serif;
 }
 
-
-/***Test New Navbar**/
-.navbar{
-  padding: 100px 0 0 0;
-}
-
 /***Navigation Section***/
-nav{
-  height: auto;
-  min-height: 80px;
-  position: fixed;
+.navbar-default{
   background-color: white;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  box-shadow: 0px 0px 5px #888888;
+  border-color: #e7e7e7;
+  min-height: 80px;
 }
 
-.nav-bar{
-  display: flex;
+.nav-top-margin{
+  margin-top: 20px;
 }
 
 #my-name{
-  justify-content: flex-start;
-  width: 100%;
   font-size: 24px;
   text-transform: uppercase;
-  text-align: left;
   padding: 20px 0 0 30px;
 }
 
@@ -60,9 +46,7 @@ nav{
 }
 
 nav ul li{
-  display: inline-block;
   font-size: 16px;
-  padding-right: 20px;
 }
 
 nav ul li a{
@@ -79,7 +63,7 @@ nav ul li a:hover{
 
 /***Masthead Section***/
 .content-below-nav{
-  padding-top: 70px;
+  padding-top: 45px;
 }
 
 header{
