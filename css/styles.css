@@ -153,18 +153,6 @@ header .gray{
   height: auto;
 }
 
-/*.description-on-hover{
- display: none;
- position: absolute;
- width: 90%;
- top: 200px;
- text-align: center;
-}
-
-.dim-on-hover img{
-  opacity: 0.1;
-}*/
-
 #portfolio-section .col-md-4 h3{
   text-align: center;
   line-height: 40px;
@@ -212,11 +200,8 @@ header .gray{
   text-decoration: none;
 }
 
-
-/*Portfolio section test hover*/
-
+/*Portfolio section on hover*/
 .overlay {
-  display: none;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -224,16 +209,12 @@ header .gray{
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 1;
+  opacity: 0;
   transition: .5s ease;
   background-color: black;
 }
 
-/*.portfolio-item-container:hover .overlay {
-  opacity: 1;
-}*/
-
-.show-overlay{
+.portfolio-item-container:hover .overlay {
   opacity: 1;
 }
 
