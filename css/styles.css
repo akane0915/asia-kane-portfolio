@@ -153,6 +153,12 @@ header .gray{
   height: auto;
 }
 
+.image-container {
+  width: 100%;
+  height: 534px;
+  background-color: inherit;
+}
+
 #portfolio-section .col-md-4 h3{
   text-align: center;
   line-height: 40px;
