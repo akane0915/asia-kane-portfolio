@@ -11,6 +11,7 @@ h1, h2, h3{
 }
 
 /***Navigation Section***/
+
 .navbar-default{
   background-color: white;
   border-color: #e7e7e7;
@@ -66,7 +67,8 @@ nav ul li a:hover{
   padding-top: 45px;
 }
 
-header{
+#home{
+  display: none;
   background: url(../img/masthead.jpg) no-repeat white;
   height: auto;
   min-height: 600px;
@@ -74,6 +76,7 @@ header{
 }
 
 .masthead-text{
+  display: none;
   padding-top: 70px;
   text-align: center;
   font-weight: bolder;

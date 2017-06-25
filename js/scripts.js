@@ -21,4 +21,11 @@ $(document).ready(function(){
           scrollTop: $("#contact-section").offset().top
       }, 1000);
   });
+
+  //Masthead Fade In on Page Load
+  $(window).ready(function() {
+    $('.masthead-text').fadeIn(1000);
+    $('#home').fadeIn(4000);
+  });
+
 }); //Doc ready close
