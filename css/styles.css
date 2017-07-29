@@ -113,7 +113,11 @@ header .gray{
   line-height: 40px;
 }
 
-#column-2{
+#about-me-column-1{
+  padding-left: 60px;
+}
+
+#about-me-column-2{
   text-align: center;
 }
 
