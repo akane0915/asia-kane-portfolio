@@ -114,7 +114,7 @@ header .gray{
 }
 
 #about-me-column-1{
-  padding-left: 60px;
+  padding-left: 100px;
 }
 
 #about-me-column-2{
@@ -300,4 +300,13 @@ header .gray{
 p#location{
   font-size: 18px;
   margin: 30px 0;
+}
+
+
+@media (min-width: 768px) {
+
+  #about-me-column-1{
+    padding-left: 100px;
+  }
+
 }
