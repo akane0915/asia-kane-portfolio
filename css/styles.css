@@ -310,8 +310,41 @@ img#headshot {
 }
 
 
-/*smart phone*/
-@media (min-width: 320px) and (max-width: 480px) {
+/*small smart phone*/
+@media (min-width: 320px) and (max-width: 361px) {
+
+  #about-section {
+    padding: 0;
+  }
+
+  #about-me-column-1{
+    padding-bottom: 20px;
+    padding-left: 30px;
+  }
+
+  .overlay {
+    min-height: 524px;
+  }
+
+  #work-section {
+    padding: 0;
+  }
+
+  #contact-section {
+    padding: 0;
+  }
+
+  .contact-links{
+    width: 100%;
+  }
+
+  .contact-link-div {
+    padding: 0;
+  }
+}
+
+/*large smart phone*/
+@media (min-width: 362px) and (max-width: 480px) {
 
   #about-me-column-1{
     padding-left: 0px;
